@@ -37,7 +37,7 @@ def derivada(funcion, h=0.01):
     return df
 
 
-def newton_raphson(funcion, x0, er, N, dec=4):
+def newton_raphson(funcion, x0, er, N):
     """Implementa y Ejecuta el Método de Newton-Raphson.
 
     Parámetros:
@@ -46,7 +46,6 @@ def newton_raphson(funcion, x0, er, N, dec=4):
     x0: es un número real y aproximación inicial.
     er: es la cota del error, criterio de parada.
     N: número máximo de iteraciones.
-    dec: número de decimales.
     """
     error = 1 # Error inicial.
     itera = 0 # Número de interación.
