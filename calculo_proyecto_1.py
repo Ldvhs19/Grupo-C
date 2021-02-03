@@ -8,3 +8,6 @@ Escriba aqui los nombres de los integrantes del grupo:
 - Pedro Pérez.
 - José López.
 """
+
+if __name__ == "__main__":
+    pass
