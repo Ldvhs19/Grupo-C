@@ -15,6 +15,28 @@ Escriba aqui los nombres de los integrantes del grupo:
 import math
 
 # AQUÍ ABAJO EL CÓDIGO DE LUISANA.
+import math
+
+fn= lambda x:25*x**3-6*x**2+7*x-88
+x0=1
+
+def derivada(fn, h=0.01):
+   
+    def df(x,n):
+        i=1
+        if (n==0):
+            d = fn(x)
+        while (i <= n):
+            d = (fn(x+h) - fn(x))/h
+            i+=1
+        return d
+    return df
+    
+def poli(fn, x0,n,x):
+  k=0
+  pol=0
+  derif=erivada(fn)
+  return poli
 
 
 
